@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFC1C1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="268dp"
+        android:layout_height="188dp"
+        app:srcCompat="@drawable/foodcalendar"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="47dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/Usuario"
+        android:layout_width="270dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Usuario"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:srcCompat="@drawable/facebook"
+        tools:layout_editor_absoluteY="588dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingrese su nombre de usuario"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="268dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="O"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="547dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="138dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#973E3E"
+        android:fontFamily="sans-serif-medium"
+        android:text="Registrarse"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="118dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#973E3E"
+        android:fontFamily="sans-serif-medium"
+        android:text="Ingresar"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="454dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/passforget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:textColor="#B15050"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Ingrese su contraseña"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="369dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/google"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="588dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/ingresepass"
+        android:layout_width="270dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Contraseña"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="396dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <EditText
+        android:id="@+id/editTextDate2"
+        android:layout_width="165dp"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
